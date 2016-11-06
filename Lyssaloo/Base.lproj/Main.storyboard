@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ONCE UPON A TIME..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRF-jX-pmc">
+                                <frame key="frameInset" minX="49" minY="28" width="222" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smile" translatesAutoresizingMaskIntoConstraints="NO" id="c1c-CY-YYL">
+                                <frame key="frameInset" minX="-216" minY="57" width="752" height="402"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="I fell in love with the most beautiful girl in the world, just 6 months ago today..." textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfw-kn-D3Z">
+                                <frame key="frameInset" minX="16" minY="462" width="288" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0uD-eo-8qF">
+                                <frame key="frameInset" minX="63" minY="518" width="195" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromFirstToSecond:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GG9-3b-S5o"/>
+                                    <segue destination="8RX-3h-k8c" kind="show" identifier="fromFirstToSecond" id="iaU-lN-5eN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="138.38028169014083"/>
+        </scene>
+        <!--Second Page-->
+        <scene sceneID="4IU-LV-5Fz">
+            <objects>
+                <viewController id="8RX-3h-k8c" customClass="SecondPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jTI-Dc-ZB5"/>
+                        <viewControllerLayoutGuide type="bottom" id="H0Q-N0-cX6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OKE-mr-pKo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpM-Fm-yOB">
+                                <frame key="frameInset" minX="77" minY="74" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyH-hq-TDp">
+                                <frame key="frameInset" minX="187" minY="518" width="81" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromSecondToThird:" destination="8RX-3h-k8c" eventType="touchUpInside" id="WLe-a7-Gly"/>
+                                    <segue destination="N1B-nf-CHw" kind="show" identifier="toThirdFromSecond" id="kbV-JL-ysD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Utz-ie-GGf">
+                                <frame key="frameInset" minX="53" minY="518" width="81" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toFirstFromSecond:" destination="8RX-3h-k8c" eventType="touchUpInside" id="vsP-dz-zBp"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="toFirstFromSecond" id="cAu-Zu-bu4"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APRIL 16, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFF-wd-PA8">
+                                <frame key="frameInset" minX="53" minY="35" width="215" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic2" translatesAutoresizingMaskIntoConstraints="NO" id="i3o-pU-Vbz">
+                                <frame key="frameInset" minX="-1" minY="342" width="323" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQ2-R6-Uj4">
+                                <frame key="frameInset" minX="6" minY="101" width="309" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">I embarked on the greatest adventure of my life. Not only did I meet the love of my life on this day, but I met the person I want to spend the rest of eternity with. It all started with some police lights and two different cars. I was invited to go on a double blind date with a girl I knew nothing about. All I knew was that she was my buddy's girlfriends friend and that she was red head. My buddy and I decieded we would pull a little prank on them as they were driving to his house, where we were all meeting. So we got in my car, made sure the light was working, and the fun began. My buddy knew that she drove a sliver civic and he also figure they would be driving a certain way to get to his house. So we went and hid out in a park. Waited and waited until finally, there was the sliver civic. We let the car pass where we were hiding and off we went, following them for what seemed like forever. Finally we got to the perfect spot. Flipped the light on and waited for her to pull over. She pulled over and we sped ahead of them, rushing to his house, hoping to beat them. Later on I found out that she had called me an "idiot" after I had pulled her over. To this day I giver her a hard time about that. It's a good thing she loves me.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lrD-AB-4cV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="903.75" y="138.38028169014083"/>
+        </scene>
+        <!--Third Page-->
+        <scene sceneID="6BO-83-yVT">
+            <objects>
+                <viewController id="N1B-nf-CHw" customClass="ThirdPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tQt-Y6-Qch"/>
+                        <viewControllerLayoutGuide type="bottom" id="SaF-pA-vxV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Aq7-vS-dyC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2JP-fM-zUa">
+                                <frame key="frameInset" minX="53" minY="518" width="81" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromThirdToSecond:" destination="N1B-nf-CHw" eventType="touchUpInside" id="ChK-ej-6Ei"/>
+                                    <segue destination="8RX-3h-k8c" kind="show" identifier="fromThirdToSecond" id="kre-jE-boX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M87-Xp-OO2" customClass="fromThirdToFourth">
+                                <frame key="frameInset" minX="188" minY="518" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromThirdToFourth:" destination="N1B-nf-CHw" eventType="touchUpInside" id="0we-1u-4bV"/>
+                                    <segue destination="xRn-me-99r" kind="show" identifier="fromThirdToFourth" id="iXz-2I-E51"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APRIL 16, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AL8-68-ASK">
+                                <frame key="frameInset" minX="53" minY="35" width="215" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jzf-ax-bm9">
+                                <frame key="frameInset" minX="77" minY="74" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adventure" translatesAutoresizingMaskIntoConstraints="NO" id="Icb-LN-Vdt">
+                                <frame key="frameInset" minX="16" minY="345" width="288" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9o-tm-xF5">
+                                <frame key="frameInset" minX="16" minY="100" width="288" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Once we all arrived at my buddys house, they realized it was just us. We then began discussing what we were gonna do next. We decided that we would go to Wheadon Farm Park and walk around, Lyss had a dog that she wanted to walk around somewhere, so to the park we went. Us guys drove separate from the girls. We got to the park and we all got out of the car. I had no idea what to expect to happen now. We began walking into the park awakwardly. I hadn't spoke a word to this new girl yet. We walked around the park for a bit, playing a little on the playground and walking over the bridge, all of which made the situation more awkward. I still hadn't spoke a word to this new girl. Only thoughts of not knowing what she's thinking about me and not knowing what I was thinking about her. All I can recall was that I thought she was kinda cute. We made our way back to the cars. Lyss had to take her dog home now, so we had planned for my buddy and I to go back to his house while they took the dog home and then they would come back out, but naturally we would go to his house and get my car and drive out there to get them.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RsP-Ls-wuu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1693.125" y="138.38028169014083"/>
+        </scene>
+        <!--Fourth Page-->
+        <scene sceneID="A8O-Y6-2Bz">
+            <objects>
+                <viewController id="xRn-me-99r" customClass="FourthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p0s-Qr-I6F"/>
+                        <viewControllerLayoutGuide type="bottom" id="mSF-pQ-Ebd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tm1-cs-Bu6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APRIL 16, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qvT-fK-n0A">
+                                <frame key="frameInset" minX="53" minY="37" width="215" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlU-qz-p6v">
+                                <frame key="frameInset" minX="77" minY="75" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sxh-YS-yYI">
+                                <frame key="frameInset" minX="16" minY="104" width="288" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">After we picked up my car we drove out to Alyssa's house. I was following my buddy and I got so lost. I had no idea where the heck I was. We got to this new girl's house. I was just waiting in my car, not knowing exactly what was going on. Both of the girls ended up driving with my buddy and I drove alone in my car. We decided we would go to Iceberg, the one off Bangerter Highway to be specific. We drove there, I beat them cause my buddy's girlfriend was driving his truck very slowly. I parked and realized that it was closed. So I waited for them to get there and told them it was closed. After a lot of fighting and peer pressure, my buddy and his girlfriend somehow convinced this new girl to ride in my car. I was nervous, no doubt about that. Once she got in my car, we decided to try the other Iceberg which was about 5 or so minutes away. Surprisingly, the car ride wasn't too awkward. I had a good time talking to her. It was pretty fun and I realized I kinda liked this girl. We got to the other Iceberg and ordered. It was kinda awkward there, mostly cause I was forced to sit by this girl I didn't know. We ordered and got our food. We decided to go to Draper park to walk around. She again rode in my car on the way there. That car ride was good too. I was excited to get to know this girl better.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="GDp-nH-URF">
+                                <frame key="frameInset" minX="3" minY="346" width="314" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EkU-3Q-1Hp">
+                                <frame key="frameInset" minX="53" minY="521" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromFourthToThird:" destination="xRn-me-99r" eventType="touchUpInside" id="XMV-Tv-jUg"/>
+                                    <segue destination="N1B-nf-CHw" kind="show" identifier="fromFourthToThird" id="QvO-Lm-VJc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1O-YV-rJM">
+                                <frame key="frameInset" minX="188" minY="521" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromFourthToFifth:" destination="xRn-me-99r" eventType="touchUpInside" id="uo9-mw-kxq"/>
+                                    <segue destination="rK2-5J-ixh" kind="show" identifier="fromFourthToFifth" id="lhB-c1-8vd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FAx-BY-Vg6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2478.75" y="137.32394366197184"/>
+        </scene>
+        <!--Fifth Page-->
+        <scene sceneID="Zy0-tn-kZE">
+            <objects>
+                <viewController id="rK2-5J-ixh" customClass="FifthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ao5-HM-U1c"/>
+                        <viewControllerLayoutGuide type="bottom" id="AEF-HJ-6dn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QSN-1J-HPI" userLabel="View" customClass="The">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APRIL 16, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXv-2a-qgS">
+                                <frame key="frameInset" minX="53" minY="35" width="215" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z38-OR-e4U">
+                                <frame key="frameInset" minX="77" minY="73" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRy-Oe-yPT">
+                                <frame key="frameInset" minX="16" minY="97" width="288" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Following a short car ride, we arrived at Draper Park. We all got out of our cars and huddled around my buddys truck. Here we ate what we got from Iceberg and chatted. I remember looking over at this new girl and thinking she was pretty cute. She kept looking at me too, which was promising. After we finished our food we walked around Draper park. We sat on a hill for a while and talked, me kind of just sitting in the background and listening. After we finished up at Draper Park we then again got in the cars and headed over to my buddies house. We went into his basement and started a movie. During this time my buddy and his girlfriend tried to convince me to go sit by and snuggle with this new girl. Of course I rejected and resisted. I wasn't gonna go sit by her, I didn't know who she was. I wasn't comfortable around her. After a while the time hit and the girls had to go home. My buddy drove them both home and I drove home, all of us leaving his house at the same time. I remember wondering if I'd see this girl again. Later on that night I was texting my buddy and found out that she kinda liked me. And I started to like her more. I just had to get the guts to ask her on an official date. That would be a hard thing to do, a very very hard thing to do.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hc" translatesAutoresizingMaskIntoConstraints="NO" id="pQO-b6-mGJ">
+                                <frame key="frameInset" minX="5" minY="341" width="310" height="165"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="geV-xP-f8n">
+                                <frame key="frameInset" minX="53" minY="524" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromFifthToFourth:" destination="rK2-5J-ixh" eventType="touchUpInside" id="Koi-dA-ZMa"/>
+                                    <segue destination="xRn-me-99r" kind="show" identifier="fromFifthToFourth" id="TwB-qW-HD1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5s-77-L5N">
+                                <frame key="frameInset" minX="188" minY="524" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromFiveToSix:" destination="rK2-5J-ixh" eventType="touchUpInside" id="ItT-GY-fQ2"/>
+                                    <segue destination="PB7-Lc-RP9" kind="show" identifier="fromFiveToSix" animates="NO" id="4Y2-0v-LYw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1ZD-XV-mHb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3249.375" y="137.32394366197184"/>
+        </scene>
+        <!--Sixth Page-->
+        <scene sceneID="Axs-zP-sc7">
+            <objects>
+                <viewController id="PB7-Lc-RP9" customClass="SixthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rct-tr-l4W"/>
+                        <viewControllerLayoutGuide type="bottom" id="nUN-98-KTy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KRQ-N5-uQv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shoulder" translatesAutoresizingMaskIntoConstraints="NO" id="Yke-yR-0Rp">
+                                <frame key="frameInset" minX="-67" minY="127" width="454" height="242"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="**I'll give you this password on the 19th!**" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0p-Ci-e2i">
+                                <frame key="frameInset" minX="16" minY="510" width="290" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVc-5h-p8Y">
+                                <frame key="frameInset" minX="196" minY="463" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromSixthToSeventh:" destination="PB7-Lc-RP9" eventType="touchUpInside" id="WqZ-H0-Z7C"/>
+                                    <segue destination="LH5-d6-f45" kind="show" identifier="fromSixthToSeventh" id="63w-aC-YR2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To be continued on..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Pb-Pg-Scg">
+                                <frame key="frameInset" minX="80" minY="28" width="161" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OCTOBER 19, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vn1-eT-h1e">
+                                <frame key="frameInset" minX="30" minY="57" width="261" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceK-dZ-qZH">
+                                <frame key="frameInset" minX="30" minY="463" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromSixthToFifth:" destination="PB7-Lc-RP9" eventType="touchUpInside" id="LiX-aX-Iy3"/>
+                                    <segue destination="rK2-5J-ixh" kind="show" identifier="fromSixthToFifth" id="7TJ-S5-1HA"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="0HO-ie-HpL">
+                                <frame key="frameInset" minX="62" minY="404" width="196" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="textField:" destination="PB7-Lc-RP9" eventType="editingDidEndOnExit" id="TrA-r7-24V"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="0HO-ie-HpL" id="ipw-Xz-Ljn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3vv-Xi-ED9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4014.375" y="137.32394366197184"/>
+        </scene>
+        <!--Seventh Page-->
+        <scene sceneID="Jwq-6k-j7o">
+            <objects>
+                <viewController id="LH5-d6-f45" customClass="SeventhPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o6e-no-8Vm"/>
+                        <viewControllerLayoutGuide type="bottom" id="2ub-yd-0mc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a1l-Sj-VKb" customClass="The">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zk3-Jc-pQC">
+                                <frame key="frameInset" minX="53" minY="524" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromSeventhToSixth:" destination="LH5-d6-f45" eventType="touchUpInside" id="KRc-kc-7k6"/>
+                                    <segue destination="PB7-Lc-RP9" kind="show" identifier="fromSeventhToSixth" id="Yha-fk-pOg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APRIL 19, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpe-OY-nxY">
+                                <frame key="frameInset" minX="53" minY="28" width="215" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3X-JV-qBM">
+                                <frame key="frameInset" minX="188" minY="524" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromSevethToEigth:" destination="LH5-d6-f45" eventType="touchUpInside" id="O6I-3t-I9b"/>
+                                    <segue destination="ehh-iy-kPc" kind="show" identifier="fromSeventhToEigth" id="uL5-if-Z58"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkw-GX-ImW">
+                                <frame key="frameInset" minX="77" minY="66" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MDL-zy-4NP">
+                                <frame key="frameInset" minX="16" minY="95" width="288" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">This girl had been on my mind since the day that I met her. Did she like me? Well I certainly liked her. I hoped she liked me. At this point I was thinking about asking her on a date. But oh man, could I get the guts to ask her? Girls are scary, let alone talking them, let alone asking them on a date. Especially one that you like. At this point my buddy and I had a date planned. He had asked his girl and had asked Alyssa if she wanted to go on one with me, to which she said yes. That was promising! I finally got the guts to call her and ask her on a date. I was outside, dialed the number. And uh oh, the call didn't go through. But then I heard a hello and realized it was on the phone. It totally caught me off guard. I said hello back and after that I didn't know what to say. So I winged it. I guess I did ask her to go on a date, cause that Friday I had a date with this girl! I was so excited. Even more exicted to go on this date than I was to go to Prom. I'll admit it, I didn't want to go to Prom anymore. I just wanted to go on a date with this girl. Friday couldn't come soon enough!</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arms" translatesAutoresizingMaskIntoConstraints="NO" id="XdV-QZ-RC5">
+                                <frame key="frameInset" minY="339" width="322" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xe2-Ib-GgM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4773.75" y="137.32394366197184"/>
+        </scene>
+        <!--Eight Page-->
+        <scene sceneID="FUD-vI-tZ0">
+            <objects>
+                <viewController id="ehh-iy-kPc" customClass="EightPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Idz-ab-Gs2"/>
+                        <viewControllerLayoutGuide type="bottom" id="BSe-1o-szU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VZz-bd-eUv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To be continued on..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2Q-IP-834">
+                                <frame key="frameInset" minX="80" minY="28" width="161" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OCTOBER 22, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UL8-nV-l4x">
+                                <frame key="frameInset" minX="30" minY="57" width="261" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOx-ss-tbi">
+                                <frame key="frameInset" minX="30" minY="463" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromEigthToSeventh:" destination="ehh-iy-kPc" eventType="touchUpInside" id="fhD-ce-s3x"/>
+                                    <action selector="fromSixthToFifth:" destination="PB7-Lc-RP9" eventType="touchUpInside" id="12d-Tf-eTq"/>
+                                    <segue destination="LH5-d6-f45" kind="show" identifier="fromEigthToSeventh" id="umv-ma-Yuu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3I-tp-Pef">
+                                <frame key="frameInset" minX="196" minY="463" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromEigthToNinth:" destination="ehh-iy-kPc" eventType="touchUpInside" id="85L-cH-Ppe"/>
+                                    <action selector="fromSixthToSeventh:" destination="PB7-Lc-RP9" eventType="touchUpInside" id="Sax-nX-JrU"/>
+                                    <action selector="textField:" destination="ehh-iy-kPc" eventType="editingDidEnd" id="Xd1-tP-V6o"/>
+                                    <segue destination="AvJ-2B-A5Q" kind="show" identifier="fromEigthToNinth" id="MKa-fP-J8Y"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="k4d-MZ-XIj">
+                                <frame key="frameInset" minX="62" minY="404" width="196" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="textField:" destination="ehh-iy-kPc" eventType="editingDidEndOnExit" id="qXZ-Y5-b1G"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="**I'll give you this password on the 22nd!**" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejX-Uw-HG9">
+                                <frame key="frameInset" minX="16" minY="517" width="290" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="temple" translatesAutoresizingMaskIntoConstraints="NO" id="2gJ-AZ-UxZ">
+                                <frame key="frameInset" minX="-85" minY="116" width="490" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="k4d-MZ-XIj" id="SZL-wA-2fb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lWa-hC-26X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5529.375" y="136.26760563380282"/>
+        </scene>
+        <!--Ninth Page-->
+        <scene sceneID="4g1-lA-DI5">
+            <objects>
+                <viewController id="AvJ-2B-A5Q" customClass="NinthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="noG-Bh-x41"/>
+                        <viewControllerLayoutGuide type="bottom" id="m8b-MF-Mal"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="P4h-8a-5CQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxl-9H-B51">
+                                <frame key="frameInset" minX="53" minY="524" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="FromNinthToEigth:" destination="AvJ-2B-A5Q" eventType="touchUpInside" id="0sT-ot-vY1"/>
+                                    <action selector="fromSeventhToSixth:" destination="LH5-d6-f45" eventType="touchUpInside" id="A0d-FL-V7y"/>
+                                    <segue destination="ehh-iy-kPc" kind="show" identifier="fromNinthToEigth" id="duP-4x-M6L"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APRIL 22, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ht-OE-LNI">
+                                <frame key="frameInset" minX="53" minY="28" width="215" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bi4-RQ-nDO">
+                                <frame key="frameInset" minX="188" minY="524" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromNinthToTenth:" destination="AvJ-2B-A5Q" eventType="touchUpInside" id="Nko-LP-wvq"/>
+                                    <action selector="fromSevethToEigth:" destination="LH5-d6-f45" eventType="touchUpInside" id="VwH-6B-fCT"/>
+                                    <segue destination="blf-NW-tYF" kind="show" identifier="fromNinthToTenth" id="lsS-rI-3e7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRM-qN-7hZ">
+                                <frame key="frameInset" minX="77" minY="66" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8G-hq-Eqw">
+                                <frame key="frameInset" minX="16" minY="93" width="288" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">We went on our first official date. Unexpectedly, during the week leading up to this Friday, Alyssa did something to her knee that caused her to be in a brace for a while. We had planned to ride a side by side up this hill and have dinner and after go play games at my house and watch a movie. Though we did do that, some plans were a little different. First off, my buddy came to pick me up so we could all drive in the same car throughout the date. After he picked me up, we went out to Riverton to get the girls. As we were driving in the neighborhood my buddy and I were talking about how nervous we both were. I was nervous to go on a date with Alyssa cause, I'll admit it, I liked this girl, and I was exctied for this date! We got to Alyssas house and I ran up to the door to get her. She opened the door and wow, she was beautiful. We walked out to the car, I opened her door and she got in and I ran around to the other side to get it. Then we drove over to get my buddies girlfriend. He went up and got her while Alyssa and I talked in the car for a minute. They got back in and the date began!</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tramp" translatesAutoresizingMaskIntoConstraints="NO" id="6J7-N1-jCX">
+                                <frame key="frameInset" minY="339" width="322" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RHU-nV-XfC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6300" y="137.32394366197184"/>
+        </scene>
+        <!--Tenth Page-->
+        <scene sceneID="326-q5-ThE">
+            <objects>
+                <viewController id="blf-NW-tYF" customClass="TenthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="79r-Wm-elI"/>
+                        <viewControllerLayoutGuide type="bottom" id="4de-l3-gAY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O1r-AU-yqB" customClass="The">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Td4-Bl-8tK">
+                                <frame key="frameInset" minX="53" minY="524" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromSeventhToSixth:" destination="LH5-d6-f45" eventType="touchUpInside" id="tiW-Eu-QS0"/>
+                                    <action selector="fromTenthToNinth:" destination="blf-NW-tYF" eventType="touchUpInside" id="2q4-cm-oqL"/>
+                                    <segue destination="AvJ-2B-A5Q" kind="show" identifier="fromTenthToNinth" id="gTl-ML-iWz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APRIL 22, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ko-ut-B8g">
+                                <frame key="frameInset" minX="53" minY="28" width="215" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hia-bU-Yly">
+                                <frame key="frameInset" minX="188" minY="524" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromSevethToEigth:" destination="LH5-d6-f45" eventType="touchUpInside" id="JWa-Sq-Gbb"/>
+                                    <action selector="fromTenthToEleventh:" destination="blf-NW-tYF" eventType="touchUpInside" id="X53-WV-VKO"/>
+                                    <segue destination="dfh-wY-H40" kind="show" identifier="fromTenthToEleventh" id="lZG-1P-pGe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jjz-Uc-HqA">
+                                <frame key="frameInset" minX="77" minY="66" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yC-Pj-KOg">
+                                <frame key="frameInset" minX="16" minY="95" width="288" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">After we picked up the girls we made our way to Cafe Rio for dinner. We walked through the line and ordered. Got the food to go and started driving up to Orson Smith Park aka the Fire Road. We had originally planned to drive the side by side up this but we didnt have it, so we just drove my buddies truck. We drove up the bumpy road and came to our spot. The spot where we would eat at. I got out and took the food down to the table, keeping a close eye on Alyssa to make sure she was okay with her knee. I felt really bad for her, especially after my buddy and his girl were making fun of her and calling her "crippled". We got down to the table and started eating. It was pretty fun. With an amazing view. Oh and it was really nice to be able to look over the valley while we were eating. ;) After we ate we cleaned up and made our way back to the truck. We finished earlier than planned so we decided to go up to Suncrest and find something to do. We found a nice little hiking area with some cool views. We were taking pics and walking around. My buddy was getting upset, for what reason, I don't really know or remember. He was just being dumb. Anyway, we finished the little hike and made our way to my house, my favorite part of this date! </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sbs" translatesAutoresizingMaskIntoConstraints="NO" id="t4N-AV-4ZU">
+                                <frame key="frameInset" minY="339" width="322" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="unA-nx-dnd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7091" y="138"/>
+        </scene>
+        <!--Eleventh Page-->
+        <scene sceneID="SCX-0e-zyN">
+            <objects>
+                <viewController id="dfh-wY-H40" customClass="EleventhPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dsD-Z2-Sxh"/>
+                        <viewControllerLayoutGuide type="bottom" id="dgK-Sd-RdO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PEj-Ex-dU2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="joU-cb-hbI">
+                                <frame key="frameInset" minX="52" minY="516" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromEleventhToTenth:" destination="dfh-wY-H40" eventType="touchUpInside" id="XyJ-X7-Wcs"/>
+                                    <action selector="fromSeventhToSixth:" destination="LH5-d6-f45" eventType="touchUpInside" id="DTK-eI-VZz"/>
+                                    <action selector="fromTenthToNinth:" destination="blf-NW-tYF" eventType="touchUpInside" id="dPg-33-2Tg"/>
+                                    <segue destination="blf-NW-tYF" kind="show" identifier="fromEleventhToTenth" id="ZSK-a2-fiJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APRIL 22, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xtK-8b-d36">
+                                <frame key="frameInset" minX="52" minY="20" width="215" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tjt-vP-EKD">
+                                <frame key="frameInset" minX="187" minY="516" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromEleventhToTwelfth:" destination="dfh-wY-H40" eventType="touchUpInside" id="vvD-Yo-vPf"/>
+                                    <action selector="fromSevethToEigth:" destination="LH5-d6-f45" eventType="touchUpInside" id="l5W-cU-ZG0"/>
+                                    <action selector="fromTenthToEleventh:" destination="blf-NW-tYF" eventType="touchUpInside" id="zBi-Nv-9u4"/>
+                                    <segue destination="1Eb-oW-CTM" kind="show" identifier="fromEleventhToTwelfth" id="omm-pk-LWl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IK5-DU-3rv">
+                                <frame key="frameInset" minX="76" minY="58" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDK-HB-oPK">
+                                <frame key="frameInset" minX="15" minY="87" width="288" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">After we got to my house we hung out for a little bit. During this time of hanging out, somehow the girls got some play dough. We somehow locked them out on the deck and they began playing with this play dough. They were writing a message on the door window, which was apparantly for me. It said "Just do it." I didn't know what this meant, so I asked Bryan. All he gold me was that she wanted me to kiss her. I wasn't gonna do that, I didn't even know her. Anyway, after a while it was time for a movie. We let the girls back in and settled for a movie. Bryan and his girlfriend somehow convinced us to sit togther. For the first little bit of the movie, he kept texting me and telling me to hold Alyssa's hand. i wanted to, but her hand was in her lap and I found it awkward to reach into her lap and just grabber her hand. So I just waited for her to move her hand over, but she didn't. So I told Bryan that her hand was in her lap and I didn't want to reach over there and grab it. So he texted her and told her to move her hand. Long story short, she finally moved her and over and we locked hands. Wow was I excited to be holding a girls hand. It was the first time I had ever held anyones hand. And it was amazing! I was so happy that I did it. Now I just had to get the guts to ask her on another date and hopefully kiss her eventually. I really liked this girl and I hoped that she liked me! After a while it was time to take the girls home. Bryan took his girl home and I took Alyssa home in my own car. It was quite the drive. I was so happy that I had held her hand! I was so excited to ask her on another date. I wondered what she was thinking about me. I knew that I liked her and I sort of figure that she liked me, or she wouldn't have held my hand, right? Well, little did I know what would happen the next week!</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hand" translatesAutoresizingMaskIntoConstraints="NO" id="ofE-Xy-fv6">
+                                <frame key="frameInset" minX="-1" minY="331" width="322" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P6Q-ev-NPU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7888" y="138"/>
+        </scene>
+        <!--Twelfth Page-->
+        <scene sceneID="BRu-2u-aw6">
+            <objects>
+                <viewController id="1Eb-oW-CTM" customClass="TwelfthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wkq-Aq-PJf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Eup-e3-XRN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lk4-SU-wFg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To be continued on..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcg-Lz-WXb">
+                                <frame key="frameInset" minX="80" minY="20" width="161" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OCTOBER 29, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zf7-xY-FRx">
+                                <frame key="frameInset" minX="30" minY="49" width="261" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaD-3m-O35">
+                                <frame key="frameInset" minX="30" minY="455" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromEigthToSeventh:" destination="ehh-iy-kPc" eventType="touchUpInside" id="8eW-Rd-eFP"/>
+                                    <action selector="fromSixthToFifth:" destination="PB7-Lc-RP9" eventType="touchUpInside" id="Lds-pd-c5c"/>
+                                    <action selector="fromTwelfthToEleventh:" destination="1Eb-oW-CTM" eventType="touchUpInside" id="AE1-qC-Xkf"/>
+                                    <segue destination="dfh-wY-H40" kind="show" identifier="fromTwelfthToEleventh" id="dsh-eq-v5Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTD-FN-AcZ">
+                                <frame key="frameInset" minX="196" minY="455" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromEigthToNinth:" destination="ehh-iy-kPc" eventType="touchUpInside" id="xaP-qD-2om"/>
+                                    <action selector="fromSixthToSeventh:" destination="PB7-Lc-RP9" eventType="touchUpInside" id="fVd-ST-XCA"/>
+                                    <action selector="fromTwelfthToThirteenth:" destination="1Eb-oW-CTM" eventType="touchUpInside" id="qKq-aU-WcI"/>
+                                    <action selector="textField:" destination="ehh-iy-kPc" eventType="editingDidEnd" id="PjP-uw-ohw"/>
+                                    <segue destination="cPb-MX-o4Q" kind="show" identifier="fromTwelfthToThirteenth" id="TgZ-Z7-qlS"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="VZl-eU-NVl">
+                                <frame key="frameInset" minX="62" minY="396" width="196" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="textField:" destination="1Eb-oW-CTM" eventType="editingDidEndOnExit" id="n0V-38-vpC"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="**I'll give you this password on the 29th!**" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zP-y5-c7u">
+                                <frame key="frameInset" minX="16" minY="509" width="290" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="valle" translatesAutoresizingMaskIntoConstraints="NO" id="s1a-ZC-TWj">
+                                <frame key="frameInset" minX="-85" minY="108" width="490" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="VZl-eU-NVl" id="s3o-Bu-jsw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jhe-Os-xa2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8687" y="136"/>
+        </scene>
+        <!--Thirteenth Page-->
+        <scene sceneID="zMF-0P-ira">
+            <objects>
+                <viewController id="cPb-MX-o4Q" customClass="ThirteenthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0XZ-bE-DfC"/>
+                        <viewControllerLayoutGuide type="bottom" id="10Q-ld-6g6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aCA-LX-9xQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Gm-3Z-lXr">
+                                <frame key="frameInset" minX="52" minY="516" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromEleventhToTenth:" destination="dfh-wY-H40" eventType="touchUpInside" id="cly-BC-0tm"/>
+                                    <action selector="fromSeventhToSixth:" destination="LH5-d6-f45" eventType="touchUpInside" id="J2q-HG-gid"/>
+                                    <action selector="fromTenthToNinth:" destination="blf-NW-tYF" eventType="touchUpInside" id="LeU-Pz-dEs"/>
+                                    <action selector="fromThirteenthToTwelfth:" destination="cPb-MX-o4Q" eventType="touchUpInside" id="tG0-qb-fCH"/>
+                                    <segue destination="1Eb-oW-CTM" kind="show" identifier="fromThirteenthToTwelfth" id="KPQ-dU-b5y"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APRIL 29, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QM-07-qsO">
+                                <frame key="frameInset" minX="52" minY="20" width="215" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="95e-5s-GqA">
+                                <frame key="frameInset" minX="187" minY="516" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromThirteenthToFourteenth:" destination="cPb-MX-o4Q" eventType="touchUpInside" id="2Hv-Qa-VXs"/>
+                                    <segue destination="WhI-fV-ajV" kind="show" identifier="fromThirteenthToFourteenth" id="rFP-Ac-StP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMo-Xo-mXr">
+                                <frame key="frameInset" minX="76" minY="58" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dp-OG-Nuu">
+                                <frame key="frameInset" minX="15" minY="87" width="288" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">After the night that I held Alyssa's hand for the first time I realized that I really really really liked this girl. I wanted to ask her on another date. So I planned a date and asked her and she said yes! I was stoked! This date would be just be me and her, so we could have some quality time together, not having to worry about anyone else. I had planned for us to go to dinner at a restauraunt in SunCrest and then GoKarting, and lastly a movie. However, before this date I wanted to kiss this girl. A few nights prior we were on her doorstep saying goodbyes and I almost kissed her, but I wimped out. Boy was I mad at myself for that. I was determined to kiss her tonight, no matter what. I had it all planned out. I went and picked up this beautiful girl, which by the way, is the most beautifrul girl in the world! We went to dinner at the pizza place in SunCrest, I forget the name of it, and had a nice dinner. It was fun to talk more and get to know her more. After dinner we went GoKarting. This was fun, I won, of course. ;)</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="karting" translatesAutoresizingMaskIntoConstraints="NO" id="GuG-Tu-UK8">
+                                <frame key="frameInset" minX="-1" minY="331" width="322" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kfm-e6-Hm0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9428" y="138"/>
+        </scene>
+        <!--Fourteenth Page-->
+        <scene sceneID="liE-rM-fWq">
+            <objects>
+                <viewController id="WhI-fV-ajV" customClass="FourteenthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gp9-4D-h3X"/>
+                        <viewControllerLayoutGuide type="bottom" id="7cm-3I-jdu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="s14-er-gJN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yfb-vG-4zC">
+                                <frame key="frameInset" minX="52" minY="516" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromEleventhToTenth:" destination="dfh-wY-H40" eventType="touchUpInside" id="nva-i3-bVm"/>
+                                    <action selector="fromFourteenthToThirteenth:" destination="WhI-fV-ajV" eventType="touchUpInside" id="tJy-vx-cUW"/>
+                                    <action selector="fromSeventhToSixth:" destination="LH5-d6-f45" eventType="touchUpInside" id="Ftg-GR-Jrt"/>
+                                    <action selector="fromTenthToNinth:" destination="blf-NW-tYF" eventType="touchUpInside" id="ad0-mv-Qf5"/>
+                                    <action selector="fromThirteenthToTwelfth:" destination="cPb-MX-o4Q" eventType="touchUpInside" id="5zi-cS-RpQ"/>
+                                    <segue destination="cPb-MX-o4Q" kind="show" identifier="fromFourteenthToThirteenth" id="jht-Ie-aLe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APRIL 29, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dfq-i0-cUd">
+                                <frame key="frameInset" minX="52" minY="20" width="215" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgi-MD-TGg">
+                                <frame key="frameInset" minX="187" minY="516" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromFourteenthToFifteenth:" destination="WhI-fV-ajV" eventType="touchUpInside" id="tVE-3Q-tSg"/>
+                                    <segue destination="wkf-xO-mV2" kind="show" identifier="fromFourteenthToFifteenth" id="jwb-DN-cmD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBu-Uk-Bk7">
+                                <frame key="frameInset" minX="76" minY="58" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oMu-tj-Epc">
+                                <frame key="frameInset" minX="15" minY="87" width="288" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">After we went GoKarting, we went to a movie. However, we had a little extra time between the movie and getting done GoKarting, so we decided to go walk around Scheels for a little bit to waste some time before the movie. Once the time came we drove over to the Cinemark in Draper. We were seeing the new Jungle Book moive. I was excited to see this, not only because of the movie but because I got to see it with this girl, and most likely hold her hand! We went into the theater and got the popcorn and drinks and headed into the movie. It was a great time, I held her hand, and the whole time I couldn't get my mind off of one thing. That was kissing her. I was so nervous the whole date for the few seconds at the end where I would kiss her. Once the movie ended we were walking out my lips were so dry. Good thing I was smart and packed some chapstick, which I put on while I was in the bathroom. I thought I was smart to do that.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="movie" translatesAutoresizingMaskIntoConstraints="NO" id="1nW-6A-NBD">
+                                <frame key="frameInset" minX="-1" minY="331" width="322" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fQR-Te-5S9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10196" y="138"/>
+        </scene>
+        <!--Fifteenth Page-->
+        <scene sceneID="dhY-Vk-AH6">
+            <objects>
+                <viewController id="wkf-xO-mV2" customClass="FifteenthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vG0-Ga-2pz"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Ab-7Z-fbi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="psC-iq-W1A">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCi-R2-tuO">
+                                <frame key="frameInset" minX="52" minY="516" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromFifteenthToFourteenth:" destination="wkf-xO-mV2" eventType="touchUpInside" id="JhD-3Z-WZr"/>
+                                    <segue destination="WhI-fV-ajV" kind="show" identifier="fromFifteenthToFourteenth" id="INI-Q6-it2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APRIL 29, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zno-5x-2yv">
+                                <frame key="frameInset" minX="52" minY="20" width="215" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gx6-dj-MCM">
+                                <frame key="frameInset" minX="187" minY="516" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromFifteenthToSixteenth:" destination="wkf-xO-mV2" eventType="touchUpInside" id="ISg-MV-mY8"/>
+                                    <segue destination="qog-hJ-4Eg" kind="show" identifier="fromFifteenthToSixteenth" id="vWr-sd-s1A"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7oY-Zi-gLy">
+                                <frame key="frameInset" minX="76" minY="58" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N1r-N0-THX">
+                                <frame key="frameInset" minX="15" minY="87" width="288" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">I drove her out to her house, having had the song "Kiss the Girl" stuck in my head all night. We got to her house and walked up to the door. I was so so nervous. More nervous than I had ever been. But I was excited. I was so determined to kiss her this time! We talked for a little bit. Had a nice conversation and I went in for a hug. As I was letting go from the hug I went in and kissed her! And something crazy happened, she kissed me back! Man, it was like the best day of my life! I was so stoked to have kissed her! After we kissed I gave her another hug and it was time for her to go inside. She went inside and I went out to my car. I was on cloud 9! I had just kissed a girl for the first time! I was so so stoked! I drove home and I was so excited! I may have sped because I was so happy. Nothing could stop me now! I texted my friend and told him what I had just done, so I went to his house and told him the scoop. To this day, that was one of my favorite dates, just because of what happened! I was so happy! :D</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kiss" translatesAutoresizingMaskIntoConstraints="NO" id="dJC-FB-uJ7">
+                                <frame key="frameInset" minX="-1" minY="331" width="322" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N5J-qt-1cG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10993" y="138"/>
+        </scene>
+        <!--Sixteenth Page-->
+        <scene sceneID="ey9-Hc-gaj">
+            <objects>
+                <viewController id="qog-hJ-4Eg" customClass="SixteenthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I4t-Qb-R4f"/>
+                        <viewControllerLayoutGuide type="bottom" id="akV-VC-wdP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4it-pc-cxh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To be continued on..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wuu-h6-K1y">
+                                <frame key="frameInset" minX="80" minY="20" width="161" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOVEMBER 4, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgS-Ol-ZYl">
+                                <frame key="frameInset" minX="30" minY="49" width="261" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zR0-iz-KJS">
+                                <frame key="frameInset" minX="30" minY="455" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromSixteenthToFifteenth:" destination="qog-hJ-4Eg" eventType="touchUpInside" id="xr9-EA-g54"/>
+                                    <segue destination="wkf-xO-mV2" kind="show" identifier="fromSixteenthToFifteenth" id="FvB-bc-k2W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHC-hh-J53">
+                                <frame key="frameInset" minX="196" minY="455" width="95" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromSixteenthToSeventeenth:" destination="qog-hJ-4Eg" eventType="touchUpInside" id="hzc-ES-fex"/>
+                                    <segue destination="H1B-a8-9vJ" kind="show" identifier="fromSixteenthToSeventeenth" id="FFq-fz-Cpt"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="tvn-Jh-4Y4">
+                                <frame key="frameInset" minX="62" minY="396" width="196" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="textField:" destination="1Eb-oW-CTM" eventType="editingDidEndOnExit" id="CRm-lb-x9O"/>
+                                    <action selector="textField:" destination="qog-hJ-4Eg" eventType="editingDidEndOnExit" id="dG7-KD-3s6"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="**I'll give you this password on the 4th!**" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="134-QO-lnw">
+                                <frame key="frameInset" minX="16" minY="509" width="290" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="us" translatesAutoresizingMaskIntoConstraints="NO" id="DCX-6k-9NB">
+                                <frame key="frameInset" minX="-85" minY="108" width="490" height="261"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="tvn-Jh-4Y4" id="r5I-ET-vX1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="abU-zX-fsy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11768" y="138"/>
+        </scene>
+        <!--Seventeenth Page-->
+        <scene sceneID="0aV-YR-Sqf">
+            <objects>
+                <viewController id="H1B-a8-9vJ" customClass="SeventeenthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="99D-C3-EfF"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZHC-ez-0Mk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yz3-gh-Typ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dW-Vt-SeO">
+                                <frame key="frameInset" minX="52" minY="516" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromSeventeenthToSixteenth:" destination="H1B-a8-9vJ" eventType="touchUpInside" id="F7N-2l-DuG"/>
+                                    <segue destination="qog-hJ-4Eg" kind="show" identifier="fromSeventeenthToSixteenth" id="jbB-Bd-fqQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="May 4, 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFi-ey-ZBr">
+                                <frame key="frameInset" minX="52" minY="20" width="215" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzv-Ht-aLC">
+                                <frame key="frameInset" minX="187" minY="516" width="80" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromSeventeenthToEighteenth:" destination="H1B-a8-9vJ" eventType="touchUpInside" id="cr4-3m-Z0g"/>
+                                    <segue destination="a1u-qT-XV1" kind="show" identifier="fromSeventeenthToEighteenth" id="Nie-k7-0Ct"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6 months ago today..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qMG-s1-upT">
+                                <frame key="frameInset" minX="76" minY="58" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IkK-F6-nuA">
+                                <frame key="frameInset" minX="15" minY="87" width="288" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Alyssa and I had become best friends, since the day we met. There was always a special connection between us. We could both feel it. Since we met we have become such a huge part of each others lives. We are unseparable. Nothing will ever stop us. This is a special day for us. This was the day we became official as boyfriend and girlfriend. She had come to one of my tennis matches and had to go somewhere after. I got home and was bored so I called her on the phone to see what she was up to. Somehow we started talking about being boyfriend and girlfriend. I asked her there and then what she thought and eventually I ended up saying, "So I guess that means we are boyfriend and girlfriend?" I was so happy to have her as my girlfriend and to be able to call her my girlfriend. She makes me so happy and I am so in love with her. This day is very special to us, a day to celebrate the love we have for each other, to celebrate us, to celebrate our relationship. I am so beyond lucky to have her. She is the most amazing and beautiful girl that I know. I love her so much!</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="janda" translatesAutoresizingMaskIntoConstraints="NO" id="tQn-Uu-znn">
+                                <frame key="frameInset" minX="-1" minY="331" width="322" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d0M-1A-FpH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12549" y="138"/>
+        </scene>
+        <!--Eighteenth Page-->
+        <scene sceneID="s7x-Rl-q2q">
+            <objects>
+                <viewController id="a1u-qT-XV1" customClass="EighteenthPage" customModule="J___A" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0oa-xd-a4a"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rfe-6P-YXj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LEB-rr-CWC" customClass="The">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNz-Wz-geD">
+                                <frame key="frameInset" minX="16" minY="56" width="288" height="221"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Babe, I hope you liked this. I put my heart and soul into getting this done for you. I had so much fun remembering all of the things we did when we first met. It was fun to think back to that time. I laughed out loud a lot while I was making this because I would remember all of the memories. I hope you know how much I love you. I love you more than anything. You are my whole life. You are my whole world. Nothing will ever change the love I have for you. You are the person I want to spend eternity with. You are the person I want to have a family with. You are the person I want to do everything with! I can't wait to be married to my best friend. You are the most beautiful and amazing girl I have ever met and ever will meet. You have my whole heart and I love you more than anything. You are so perfect to me. You are everything I have ever wanted! Don't ever forget just how much I love you! I look at you and I see everything I could ever want. I see you and I see the most amazing girl I know and the most beautiful and perfect girl I know! Don't ever forget that. I can't wait for all of the other memories that we will create throughout our life! Life is so so much better with you in it! I love you so so much! You are my everything! Happy 6 Months! </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TO THE LOVE OF MY LIFE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxH-IM-LzJ">
+                                <frame key="frameInset" minY="20" width="320" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXU-lp-j4y">
+                                <frame key="frameInset" minX="62" minY="531" width="195" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="fromEighteenthToSeventeenth:" destination="a1u-qT-XV1" eventType="touchUpInside" id="NYJ-OH-f01"/>
+                                    <segue destination="H1B-a8-9vJ" kind="show" identifier="fromEighteenthToSeventeenth" id="T4H-RZ-JL2"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="together" translatesAutoresizingMaskIntoConstraints="NO" id="HT7-xb-AWc">
+                                <frame key="frameInset" minX="-132" minY="284" width="584" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vBy-zZ-Lu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13323.75" y="137.32394366197184"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="adventure" width="2208" height="1242"/>
+        <image name="arms" width="1193" height="1523"/>
+        <image name="back" width="1200" height="1600"/>
+        <image name="hand" width="1242" height="2208"/>
+        <image name="hc" width="2885" height="3606"/>
+        <image name="janda" width="6016" height="4000"/>
+        <image name="karting" width="2576" height="1932"/>
+        <image name="kiss" width="6016" height="4000"/>
+        <image name="movie" width="4031" height="3024"/>
+        <image name="pic2" width="720" height="1184"/>
+        <image name="sbs" width="4032" height="3024"/>
+        <image name="shoulder" width="6016" height="4000"/>
+        <image name="smile" width="1242" height="1552"/>
+        <image name="temple" width="1136" height="754"/>
+        <image name="together" width="4407" height="2930"/>
+        <image name="tramp" width="1080" height="1920"/>
+        <image name="us" width="1183" height="720"/>
+        <image name="valle" width="4032" height="3024"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="KPQ-dU-b5y"/>
+        <segue reference="jht-Ie-aLe"/>
+        <segue reference="INI-Q6-it2"/>
+        <segue reference="jwb-DN-cmD"/>
+        <segue reference="vWr-sd-s1A"/>
+        <segue reference="FFq-fz-Cpt"/>
+        <segue reference="dsh-eq-v5Y"/>
+        <segue reference="ZSK-a2-fiJ"/>
+        <segue reference="gTl-ML-iWz"/>
+        <segue reference="4Y2-0v-LYw"/>
+        <segue reference="lhB-c1-8vd"/>
+        <segue reference="iXz-2I-E51"/>
+        <segue reference="kbV-JL-ysD"/>
+        <segue reference="iaU-lN-5eN"/>
+        <segue reference="umv-ma-Yuu"/>
+        <segue reference="uL5-if-Z58"/>
+    </inferredMetricsTieBreakers>
+</document>
